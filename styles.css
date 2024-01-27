@@ -19,7 +19,7 @@ body {
 }
 
 
-.logo img{
+.sidebar__navigation .logo img{
     width: 80px;
 }
 
@@ -28,4 +28,30 @@ body {
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
+
+.sidebar nav ul {
+    padding: 20px 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM-sans", sans-serif;
+}
+
+.library__navigation{
+    margin-top: 20px;
+    padding-top: 0;
+}
+
+.library__navigation nav ul {
+    padding: 50px !important;
+}
+
 
